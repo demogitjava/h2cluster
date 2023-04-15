@@ -1,4 +1,4 @@
-package de.jgsoftware.h2cluster.config;
+package de.jgsoftware.h2cluster.config.shell;
 
 
 

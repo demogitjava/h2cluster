@@ -35,6 +35,6 @@ public interface ih2cluster {
         System.out.println(timestamp);
         System.out.println(timestamp2);
 
-        SpringApplication.run(ih2cluster.class, args);
+        SpringApplication.run(h2cluster.class, args);
     }
 }
