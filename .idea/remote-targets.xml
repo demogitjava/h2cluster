@@ -15,7 +15,7 @@
           </option>
           <option name="containerConfig">
             <ContainerConfig>
-              <option name="runCliOptions" value="-p 9101:9101 -p 9102:9102 --dns 8.8.8.8 --dns 8.8.4.4 --dns 192.168.178.3 --dns-search demogitjava --name de_h2webshop --network 192.168.178.0 -it --cpus=&quot;2&quot; " />
+              <option name="runCliOptions" value="-p 9101:9101 -p 9102:9102 --dns 8.8.8.8 --dns 8.8.4.4 --dns 192.168.178.3 --dns-search demogitjava --name de_h2webshop --network 192.168.178.0 -it --cpus=&quot;1&quot; " />
             </ContainerConfig>
           </option>
         </config>
