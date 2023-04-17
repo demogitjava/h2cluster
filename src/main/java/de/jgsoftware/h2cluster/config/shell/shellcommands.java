@@ -30,7 +30,6 @@ import static org.hibernate.engine.jdbc.StreamUtils.copy;
  *
  * @author hoscho
  */
-
 @ShellComponent
 public class shellcommands
 {
@@ -92,17 +91,18 @@ public class shellcommands
             String urlTarget = sturltarget
             String user = stuser
          */
-        System.out.print("urlSource" + "\n");
-        System.out.print("urlTarget" + "\n");
-        System.out.print("username" + "\n");
-        System.out.print("password" + "\n");
-        System.out.print("ServerList" + "\n" + "first source db" + "\n" + "second targetdb" + "\n");
+        System.out.print("urlSource " + sturlsource + "\n");
+        System.out.print("urlTarget " + stservtarget + "\n");
+        System.out.print("username " + stuser + "\n");
+        System.out.print("password " + stpassword +"\n");
+        System.out.print("ServerList " + "\n" + "first source db"  + sturlsource+ "\n" + "second targetdb" + stservtarget + "\n");
 
 
         org.h2.tools.CreateCluster h2cluster = new org.h2.tools.CreateCluster();
 
+
         try {
-            h2cluster.execute("-urlSource " + sturlsource, "-urlTarget " + sturltarget, "-user " + stuser, "-password " + stpassword, "-serverList " + stservlocal + stservtarget);
+            h2cluster.execute(sturlsource, sturltarget, stuser, stpassword, stservlocal + stservtarget);
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }

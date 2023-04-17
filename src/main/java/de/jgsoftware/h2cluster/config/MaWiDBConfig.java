@@ -24,7 +24,6 @@ import java.util.HashMap;
  *
  * @author hoscho
  */
-
 @Configuration
 @EnableTransactionManagement
 @EnableJpaRepositories(basePackages = "de.jgsoftware.h2cluster.dao.interfaces",

@@ -9,7 +9,6 @@ import org.springframework.web.servlet.ModelAndView;
  *
  * @author hoscho
  */
-
 @RequestMapping("/")
 public interface ih2index
 {

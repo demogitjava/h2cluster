@@ -10,7 +10,6 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
  *
  * @author hoscho
  */
-
 @Configuration
 public class MvcConfig implements WebMvcConfigurer
 {

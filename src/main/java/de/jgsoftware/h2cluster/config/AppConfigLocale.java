@@ -15,7 +15,6 @@ import java.util.Locale;
  *
  * @author hoscho
  */
-
 @Configuration
 public class AppConfigLocale extends WebMvcConfigurerAdapter
 {

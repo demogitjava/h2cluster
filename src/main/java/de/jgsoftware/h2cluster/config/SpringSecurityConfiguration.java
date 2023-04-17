@@ -15,7 +15,6 @@ import javax.sql.DataSource;
  *
  * @author hoscho
  */
-
 @Configuration
 @EnableWebSecurity
 public class SpringSecurityConfiguration extends WebSecurityConfigurerAdapter{

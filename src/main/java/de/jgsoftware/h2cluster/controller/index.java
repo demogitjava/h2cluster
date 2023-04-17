@@ -14,7 +14,6 @@ import de.jgsoftware.h2cluster.controller.interfaces.ih2index;
  *
  * @author hoscho
  */
-
 @Controller
 public class index implements ih2index
 {
