@@ -52,7 +52,7 @@ public class DemoDBConfig extends HikariConfig
         {
 
 
-            Server h2Server = Server.createTcpServer("-tcpPort", "9092", "-tcpAllowOthers").start();
+            Server h2Server = Server.createTcpServer("-tcpPort", "9102", "-tcpAllowOthers").start();
             Server webh2Server = Server.createWebServer("-web", "-webAllowOthers", "-webPort", "8082").start();
 
             //org.h2.tools.Server h2Server = Server.createTcpServer().start();

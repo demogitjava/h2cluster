@@ -102,7 +102,9 @@ public class shellcommands
 
 
         try {
-            h2cluster.execute(sturlsource, sturltarget, stuser, stpassword, stservlocal + stservtarget);
+
+
+            h2cluster.execute(sturlsource, sturltarget, stuser, stpassword, stservlocal + ", " + stservtarget);
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
