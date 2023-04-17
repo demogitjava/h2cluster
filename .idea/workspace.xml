@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecf08022-6f14-4387-8bbc-c6d62c8260da" name="Changes" comment="add bootstrap 4">
+    <list default="true" id="ecf08022-6f14-4387-8bbc-c6d62c8260da" name="Changes" comment="edit port for tomcat to 8080">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/jgsoftware/h2cluster/controller/interfaces/ih2index.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/jgsoftware/h2cluster/controller/interfaces/ih2index.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-shell.log" beforeDir="false" afterPath="$PROJECT_DIR$/spring-shell.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/jgsoftware/h2cluster/config/shell/shellcommands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/jgsoftware/h2cluster/config/shell/shellcommands.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -114,7 +115,7 @@
       <workItem from="1681562758100" duration="1539000" />
       <workItem from="1681564299689" duration="5737000" />
       <workItem from="1681624898821" duration="4932000" />
-      <workItem from="1681723441094" duration="395000" />
+      <workItem from="1681723441094" duration="2068000" />
     </task>
     <task id="LOCAL-00001" summary="add gitaatributes">
       <created>1681563968746</created>
@@ -179,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681626334624</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="edit port for tomcat to 8080">
+      <created>1681723886377</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1681723886377</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,7 +202,19 @@
     <MESSAGE value="update db connection to interface path &#10;de.jgsoftware.h2cluster.dao.interfaces" />
     <MESSAGE value="edit pom.xml" />
     <MESSAGE value="add bootstrap 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="add bootstrap 4" />
+    <MESSAGE value="edit port for tomcat to 8080" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit port for tomcat to 8080" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/de/jgsoftware/h2cluster/config/shell/shellcommands.java</url>
+          <line>94</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
