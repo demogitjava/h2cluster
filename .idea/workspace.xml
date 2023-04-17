@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecf08022-6f14-4387-8bbc-c6d62c8260da" name="Changes" comment="edit shellcommands &#10;&#10;edit method startcluster">
+    <list default="true" id="ecf08022-6f14-4387-8bbc-c6d62c8260da" name="Changes" comment="edit h2 server port to 9102">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-shell.log" beforeDir="false" afterPath="$PROJECT_DIR$/spring-shell.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/jgsoftware/h2cluster/config/DemoDBConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/jgsoftware/h2cluster/config/DemoDBConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/jgsoftware/h2cluster/config/shell/shellcommands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/jgsoftware/h2cluster/config/shell/shellcommands.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +119,7 @@
       <workItem from="1681745841390" duration="23000" />
       <workItem from="1681745873957" duration="790000" />
       <workItem from="1681747008734" duration="11000" />
-      <workItem from="1681747027999" duration="2004000" />
+      <workItem from="1681747027999" duration="2383000" />
     </task>
     <task id="LOCAL-00001" summary="add gitaatributes">
       <created>1681563968746</created>
@@ -229,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681743233865</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="edit h2 server port to 9102">
+      <created>1681749428218</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1681749428218</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,7 +252,8 @@
     <MESSAGE value="add shell commands to create cluster to application&#10;&#10;edit port to 8080 over properties&#10;container path is /cl1webshop&#10;&#10;server.port=8080&#10;server.servlet.context-path=/cl1webshop" />
     <MESSAGE value="edit gitattributes" />
     <MESSAGE value="edit shellcommands &#10;&#10;edit method startcluster" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit shellcommands &#10;&#10;edit method startcluster" />
+    <MESSAGE value="edit h2 server port to 9102" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit h2 server port to 9102" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
