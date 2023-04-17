@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecf08022-6f14-4387-8bbc-c6d62c8260da" name="Changes" comment="edit port for tomcat to 8080">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-shell.log" beforeDir="false" afterPath="$PROJECT_DIR$/spring-shell.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/jgsoftware/h2cluster/config/shell/shellcommands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/jgsoftware/h2cluster/config/shell/shellcommands.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+    <list default="true" id="ecf08022-6f14-4387-8bbc-c6d62c8260da" name="Changes" comment="add shell commands to create cluster to application&#10;&#10;edit port to 8080 over properties&#10;container path is /cl1webshop&#10;&#10;server.port=8080&#10;server.servlet.context-path=/cl1webshop">
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +113,7 @@
       <workItem from="1681562758100" duration="1539000" />
       <workItem from="1681564299689" duration="5737000" />
       <workItem from="1681624898821" duration="4932000" />
-      <workItem from="1681723441094" duration="2068000" />
+      <workItem from="1681723441094" duration="2775000" />
     </task>
     <task id="LOCAL-00001" summary="add gitaatributes">
       <created>1681563968746</created>
@@ -187,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681723886377</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add shell commands to create cluster to application&#10;&#10;edit port to 8080 over properties&#10;container path is /cl1webshop&#10;&#10;server.port=8080&#10;server.servlet.context-path=/cl1webshop">
+      <created>1681725572667</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1681725572667</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,7 +208,8 @@
     <MESSAGE value="edit pom.xml" />
     <MESSAGE value="add bootstrap 4" />
     <MESSAGE value="edit port for tomcat to 8080" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit port for tomcat to 8080" />
+    <MESSAGE value="add shell commands to create cluster to application&#10;&#10;edit port to 8080 over properties&#10;container path is /cl1webshop&#10;&#10;server.port=8080&#10;server.servlet.context-path=/cl1webshop" />
+    <option name="LAST_COMMIT_MESSAGE" value="add shell commands to create cluster to application&#10;&#10;edit port to 8080 over properties&#10;container path is /cl1webshop&#10;&#10;server.port=8080&#10;server.servlet.context-path=/cl1webshop" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
