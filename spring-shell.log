@@ -17,3 +17,8 @@
 1681749266535:startcluster jdbc:h2:tcp://localhost:9101/~/demodb jdbc:h2:tcp://localhost:9102/~/demodb admin jj78mvpr52k1 192.168.178.7:9101 192.168.178.6:9102
 1681749496448:startcluster jdbc:h2:tcp://localhost:9101/~/demodb jdbc:h2:tcp://localhost:9102/~/demodb admin jj78mvpr52k1 192.168.178.6:9101 192.168.178.7:9102
 1681749571278:startcluster jdbc:h2:tcp://192.168.178.6:9092/~/demodb jdbc:h2:tcp://localhost:9102/~/demodb admin jj78mvpr52k1 192.168.178.6:9092 192.168.178.7:9102
+1681799951138:startcluster
+1681799957104:startcluster jdbc:h2:tcp://192.168.178.6:9092/~/demodb jdbc:h2:tcp://localhost:9102/~/demodb admin jj78mvpr52k1 192.168.178.6:9092 192.168.178.7:9102
+1681800351372:startcluster jdbc:h2:tcp://192.168.178.6:9092/~/demodb jdbc:h2:tcp://localhost:9102/~/demodb admin jj78mvpr52k1 192.168.178.7:9102 192.168.178.6:9092
+1681802591851:startcluster dbc:h2:tcp://192.168.178.6:9092/~/demodb jdbc:h2:tcp://localhost:9102/~/demodb h2dbcluster jj78mvpr52k1 192.168.178.7:9102 192.168.178.6:9092
+1681802658831:startcluster jdbc:h2:tcp://192.168.178.6:9092/~/demodb jdbc:h2:tcp://localhost:9102/~/demodb h2dbcluster jj78mvpr52k1 192.168.178.6:9102 192.168.178.7:9092

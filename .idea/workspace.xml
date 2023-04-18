@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecf08022-6f14-4387-8bbc-c6d62c8260da" name="Changes" comment="edit h2 server port to 9102">
+    <list default="true" id="ecf08022-6f14-4387-8bbc-c6d62c8260da" name="Changes" comment="update h2 cluster">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-shell.log" beforeDir="false" afterPath="$PROJECT_DIR$/spring-shell.log" afterDir="false" />
     </list>
@@ -31,6 +31,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
+        <option name="mavenHome" value="$USER_HOME$/Dokumente/apache-maven-3.9.1" />
         <option name="useMavenConfig" value="true" />
       </MavenGeneralSettings>
     </option>
@@ -119,7 +120,9 @@
       <workItem from="1681745841390" duration="23000" />
       <workItem from="1681745873957" duration="790000" />
       <workItem from="1681747008734" duration="11000" />
-      <workItem from="1681747027999" duration="2383000" />
+      <workItem from="1681747027999" duration="3202000" />
+      <workItem from="1681753068123" duration="670000" />
+      <workItem from="1681799547871" duration="2073000" />
     </task>
     <task id="LOCAL-00001" summary="add gitaatributes">
       <created>1681563968746</created>
@@ -233,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681749428218</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="update h2 cluster">
+      <created>1681749944564</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1681749944564</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,7 +263,19 @@
     <MESSAGE value="edit gitattributes" />
     <MESSAGE value="edit shellcommands &#10;&#10;edit method startcluster" />
     <MESSAGE value="edit h2 server port to 9102" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit h2 server port to 9102" />
+    <MESSAGE value="update h2 cluster" />
+    <option name="LAST_COMMIT_MESSAGE" value="update h2 cluster" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/de/jgsoftware/h2cluster/config/shell/shellcommands.java</url>
+          <line>93</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

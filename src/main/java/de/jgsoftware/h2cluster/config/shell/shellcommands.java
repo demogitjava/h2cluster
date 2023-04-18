@@ -97,7 +97,6 @@ public class shellcommands
         System.out.print("password " + stpassword +"\n");
         System.out.print("ServerList " + "\n" + "first source db"  + sturlsource+ "\n" + "second targetdb" + stservtarget + "\n");
 
-
         org.h2.tools.CreateCluster h2cluster = new org.h2.tools.CreateCluster();
 
 
