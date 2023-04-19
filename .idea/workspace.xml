@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ecf08022-6f14-4387-8bbc-c6d62c8260da" name="Changes" comment="edit shell commands &#10;&#10;user h2dbcluster with admin rights&#10;&#10;192.168.178.6 is module webshop&#10;192.168.178.7 is module h2cluster">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-shell.log" beforeDir="false" afterPath="$PROJECT_DIR$/spring-shell.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/jgsoftware/h2cluster/config/shell/shellcommands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/jgsoftware/h2cluster/config/shell/shellcommands.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +85,7 @@
     <configuration name="i_h2cluster" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="h2cluster" />
       <projectPathOnTarget name="projectPathOnTarget" value="/" />
-      <target name="de_h2webshopcluster" />
+      <target name="de_h2cluster:latest" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="de.jgsoftware.h2cluster.i_h2cluster" />
       <extension name="coverage">
         <pattern>
@@ -127,6 +127,8 @@
       <workItem from="1681804345061" duration="2352000" />
       <workItem from="1681830182590" duration="351000" />
       <workItem from="1681830560804" duration="393000" />
+      <workItem from="1681905989976" duration="191000" />
+      <workItem from="1681906189556" duration="231000" />
     </task>
     <task id="LOCAL-00001" summary="add gitaatributes">
       <created>1681563968746</created>

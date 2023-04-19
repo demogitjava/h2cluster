@@ -113,6 +113,44 @@ public class shellcommands
 
 
 
+    @ShellMethod("starttargetserver")
+    public String starttargetserver() {
+
+
+        // h2 server
+
+        // java org.h2.tools.Server
+        //    -tcp -tcpPort 9102
+        //    -baseDir server1
+
+        String userdir = System.getProperty("user.home");
+        org.h2.tools.Server h2Servertarget;
+
+        try {
+            h2Servertarget = org.h2.tools.Server.createPgServer("-tcp", "-tcpPort", "9102", "-baseDir", userdir);
+            h2Servertarget.start();
+            String h2status = (String) h2Servertarget.getStatus();
+            Integer h2port = (Integer) h2Servertarget.getPort();
+            System.out.print("Directory is " + userdir + "\n");
+
+            if (h2Servertarget.isRunning(true)) {
+                System.out.print("H2 Clustering startet as server1." + "\n");
+
+
+            } else {
+
+                throw new RuntimeException("Could not start H2 server." + "\n");
+            }
+        } catch (SQLException e) {
+            throw new RuntimeException("Failed to start H2 server: " + e + "\n");
+        }
+
+
+        return "server status " + h2Servertarget.getStatus();
+
+    }
+
+
 
     // idemodatabases demo
     @ShellMethod("install h2 databases from github with type command --->  idemodatabase getinstall")
