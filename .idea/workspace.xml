@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecf08022-6f14-4387-8bbc-c6d62c8260da" name="Changes" comment="edit shell commands &#10;&#10;user h2dbcluster with admin rights&#10;&#10;192.168.178.6 is module webshop&#10;192.168.178.7 is module h2cluster">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/jgsoftware/h2cluster/config/shell/shellcommands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/jgsoftware/h2cluster/config/shell/shellcommands.java" afterDir="false" />
+    <list default="true" id="ecf08022-6f14-4387-8bbc-c6d62c8260da" name="Changes" comment="edit shell methods&#10;&#10;add targetH2 Server method &#10;for clustering databases">
+      <change beforePath="$PROJECT_DIR$/spring-shell.log" beforeDir="false" afterPath="$PROJECT_DIR$/spring-shell.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +127,7 @@
       <workItem from="1681830182590" duration="351000" />
       <workItem from="1681830560804" duration="393000" />
       <workItem from="1681905989976" duration="191000" />
-      <workItem from="1681906189556" duration="231000" />
+      <workItem from="1681906189556" duration="395000" />
     </task>
     <task id="LOCAL-00001" summary="add gitaatributes">
       <created>1681563968746</created>
@@ -256,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681803340955</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="edit shell methods&#10;&#10;add targetH2 Server method &#10;for clustering databases">
+      <created>1681906533999</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1681906533999</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -278,7 +284,8 @@
     <MESSAGE value="edit h2 server port to 9102" />
     <MESSAGE value="update h2 cluster" />
     <MESSAGE value="edit shell commands &#10;&#10;user h2dbcluster with admin rights&#10;&#10;192.168.178.6 is module webshop&#10;192.168.178.7 is module h2cluster" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit shell commands &#10;&#10;user h2dbcluster with admin rights&#10;&#10;192.168.178.6 is module webshop&#10;192.168.178.7 is module h2cluster" />
+    <MESSAGE value="edit shell methods&#10;&#10;add targetH2 Server method &#10;for clustering databases" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit shell methods&#10;&#10;add targetH2 Server method &#10;for clustering databases" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -287,6 +294,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/de/jgsoftware/h2cluster/config/shell/shellcommands.java</url>
           <line>93</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/de/jgsoftware/h2cluster/config/shell/shellcommands.java</url>
+          <line>125</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
