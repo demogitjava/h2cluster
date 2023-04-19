@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecf08022-6f14-4387-8bbc-c6d62c8260da" name="Changes" comment="edit shell methods&#10;&#10;add targetH2 Server method &#10;for clustering databases">
-      <change beforePath="$PROJECT_DIR$/spring-shell.log" beforeDir="false" afterPath="$PROJECT_DIR$/spring-shell.log" afterDir="false" />
-    </list>
+    <list default="true" id="ecf08022-6f14-4387-8bbc-c6d62c8260da" name="Changes" comment="." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -127,7 +125,7 @@
       <workItem from="1681830182590" duration="351000" />
       <workItem from="1681830560804" duration="393000" />
       <workItem from="1681905989976" duration="191000" />
-      <workItem from="1681906189556" duration="395000" />
+      <workItem from="1681906189556" duration="771000" />
     </task>
     <task id="LOCAL-00001" summary="add gitaatributes">
       <created>1681563968746</created>
@@ -262,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681906533999</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary=".">
+      <created>1681906600738</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1681906600738</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,7 +290,8 @@
     <MESSAGE value="update h2 cluster" />
     <MESSAGE value="edit shell commands &#10;&#10;user h2dbcluster with admin rights&#10;&#10;192.168.178.6 is module webshop&#10;192.168.178.7 is module h2cluster" />
     <MESSAGE value="edit shell methods&#10;&#10;add targetH2 Server method &#10;for clustering databases" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit shell methods&#10;&#10;add targetH2 Server method &#10;for clustering databases" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
