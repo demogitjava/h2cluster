@@ -24,3 +24,9 @@
 1681802658831:startcluster jdbc:h2:tcp://192.168.178.6:9092/~/demodb jdbc:h2:tcp://localhost:9102/~/demodb h2dbcluster jj78mvpr52k1 192.168.178.6:9102 192.168.178.7:9092
 1681830728101:startcluster jdbc:h2:tcp://192.168.178.6:9101/~/demodb jdbc:h2:tcp://localhost:9102/~/demodb h2dbcluster jj78mvpr52k1 192.168.178.6:9102 192.168.178.7:9092
 1681906474942:starttargetserver
+1681996585371:startcluster jdbc:h2:tcp://192.168.178.6:9101/~/demodb jdbc:h2:tcp://localhost:9102/~/demodb h2dbcluster jj78mvpr52k1 192.168.178.6:9102 192.168.178.7:9092
+1681996652879:startcluster jdbc:h2:tcp://192.168.178.6:9101/~/demodb jdbc:h2:tcp://192.168.178.7:9102/~/demodb h2dbcluster jj78mvpr52k1 192.168.178.6:9102 192.168.178.7:9092
+1681996681865:startcluster jdbc:h2:tcp://192.168.178.7:9101/~/demodb jdbc:h2:tcp://192.168.178.6:9102/~/demodb h2dbcluster jj78mvpr52k1 192.168.178.7:9102 192.168.178.6:9092
+1681996697373:startcluster jdbc:h2:tcp://192.168.178.6:9101/~/mawi jdbc:h2:tcp://localhost:9102/~/mawi h2dbcluster jj78mvpr52k1 192.168.178.6:9102 192.168.178.7:9092
+1681996726516:startcluster jdbc:h2:tcp://192.168.178.6:9101/~/mawidb jdbc:h2:tcp://localhost:9102/~/mawidb h2dbcluster jj78mvpr52k1 192.168.178.6:9102 192.168.178.7:9092
+1681997477607:starttargetserver

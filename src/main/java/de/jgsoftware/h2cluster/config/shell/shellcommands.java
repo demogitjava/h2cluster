@@ -127,7 +127,9 @@ public class shellcommands
         org.h2.tools.Server h2Servertarget;
 
         try {
-            h2Servertarget = org.h2.tools.Server.createPgServer("-tcp", "-tcpPort", "9102", "-baseDir", userdir);
+            //h2Servertarget = org.h2.tools.Server.createPgServer("-tcp", "-tcpPort", "9102", "-baseDir", userdir);
+            h2Servertarget = org.h2.tools.Server.createPgServer("-pgAllowOthers");
+
             h2Servertarget.start();
             String h2status = (String) h2Servertarget.getStatus();
             Integer h2port = (Integer) h2Servertarget.getPort();
